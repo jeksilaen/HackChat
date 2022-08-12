@@ -147,5 +147,10 @@ io.on('connection', socket => {
 
 
 
-const PORT = 3000 || process.env.PORT;
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT;
+
+if (PORT == null || PORT == "") {
+    PORT = 3000;    
+} 
+
+server.listen(PORT, () => console.log(`Server has started successfully.`));
