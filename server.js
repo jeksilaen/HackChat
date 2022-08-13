@@ -147,7 +147,7 @@ io.on('connection', socket => {
 
 
 
-const PORT = process.env.PORT;
+let PORT = process.env.PORT;
 
 if (PORT == null || PORT == "") {
     PORT = 3000;    
