@@ -23,29 +23,26 @@
 
 ## Previews :computer:
 
-![alt text](https://github.com/jeksilaen/anakost-server/blob/main/docs-assets/home.png?raw=true)
-![alt text](https://github.com/jeksilaen/anakost-server/blob/main/docs-assets/main.png?raw=true)
+![alt text](https://github.com/jeksilaen/HackChat/blob/main/docs-assets/home.png?raw=true)
+![alt text](https://github.com/jeksilaen/HackChat/blob/main/docs-assets/main.png?raw=true)
  
 ## Usage :wrench:
 
-> ### __Create an Account__
-On the home page, simply __enter your name__. The program will then send a request to the backend to create an account under that name. If an account with that name has already been created, you simply logged in into that account with all your progress!
+> ### __Enter a username__
+On the home page, simply __enter your username__. This name will be used and displayed inside the chat room.
 
-> ### __Adding / Subtracting Expenses__
-This is the main functionality. By pressing either the plus or the minus button, you can add a new expenses!
+> ### __Pick a room__
+On the home page, you can pick and add new rooms with unique names. The program will then seperate this using Socket.IO
 
-> ### __Manage Sources__
-Each expenses may have different sources. On the top right of the screen, you can manage and add new sources.
-
-> ### __Add some notes__
-This is a little handy functionality on the left side of the screen. Here you can add little notes for yourself.
+> ### __Send Messages__
+What is a chat application if you cant send messages!
 
 ## Contribute :raised_hand:
 
 ### Clone the repo and make changes however you want!
 ```js
 //Run the git clone command'=
-$ git clone 'https://github.com/jeksilaen/anakost-client.git' //Remove the strings (')
+$ git clone 'https://github.com/jeksilaen/HackChat.git' //Remove the strings (')
 
 //Dont forget to run 'npm install or npm i' to install all the dependencies
 $ npm install
