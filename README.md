@@ -23,11 +23,8 @@
 
 ## Previews :computer:
 
-![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(home).png?raw=true)
-![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(main).png?raw=true)
-![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(transaction).png?raw=true)
-![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(sources).png?raw=true)
-
+![alt text](https://github.com/jeksilaen/anakost-server/blob/main/docs-assets/home.png?raw=true)
+![alt text](https://github.com/jeksilaen/anakost-server/blob/main/docs-assets/main.png?raw=true)
  
 ## Usage :wrench:
 
