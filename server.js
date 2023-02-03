@@ -20,7 +20,9 @@ const botName = "Admin";
 //MongoDB connecion
 // mongoose.connect('mongodb://localhost:27017/hackchat');
 
-mongoose.connect(`mongodb+srv://admin-zacharia:${process.env.DB_PASS}@cluster0.41ndsjl.mongodb.net/chatRoomDB`).catch(err => console.log(err));
+// mongoose.connect(`mongodb+srv://admin-zacharia:${process.env.DB_PASS}@cluster0.41ndsjl.mongodb.net/chatRoomDB`).catch(err => console.log(err));
+mongoose.connect(`mongodb+srv://admin-zacharia:${process.env.DB_PASS}@cluster0.41ndsjl.mongodb.net/chatRoomDB?retryWrites=true&w=majority`).catch(err => console.log(err));
+
 
 const roomSchema = new mongoose.Schema({
     roomName: String
