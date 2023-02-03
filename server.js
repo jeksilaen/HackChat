@@ -16,7 +16,9 @@ const io = socketio(server);
 const botName = "Admin";
 
 //MongoDB connecion
-mongoose.connect('mongodb+srv://admin-zacharia:kebojantan21@cluster0.41ndsjl.mongodb.net/chatRoomDB').catch(err => console.log(err));
+// mongoose.connect('mongodb://localhost:27017/hackchat');
+
+mongoose.connect('mongodb+srv://admin-zacharia:fgfg12@cluster0.41ndsjl.mongodb.net/chatRoomDB').catch(err => console.log(err));
 
 const roomSchema = new mongoose.Schema({
     roomName: String
@@ -147,10 +149,6 @@ io.on('connection', socket => {
 
 
 
-let PORT = process.env.PORT;
+let PORT = process.env.PORT || 3000;
 
-if (PORT == null || PORT == "") {
-    PORT = 3000;    
-} 
-
-server.listen(PORT, () => console.log(`Server has started successfully.`));
+server.listen(PORT, "0.0.0.0", () => console.log(`Server has started successfully at ${PORT}`));
