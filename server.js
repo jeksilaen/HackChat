@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express');
 const path = require('path')
 const http = require('http');
@@ -18,7 +20,7 @@ const botName = "Admin";
 //MongoDB connecion
 // mongoose.connect('mongodb://localhost:27017/hackchat');
 
-mongoose.connect('mongodb+srv://admin-zacharia:fgfg12@cluster0.41ndsjl.mongodb.net/chatRoomDB').catch(err => console.log(err));
+mongoose.connect(`mongodb+srv://admin-zacharia:${process.env.DB_PASS}@cluster0.41ndsjl.mongodb.net/chatRoomDB`).catch(err => console.log(err));
 
 const roomSchema = new mongoose.Schema({
     roomName: String
