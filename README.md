@@ -21,7 +21,7 @@
 |     **Styling**     | [Bootstrap](https://getbootstrap.com) |
 |      **Deploy**     |    [Heroku](https://www.heroku.com)   |
 
-## Previews :computer:
+## Previews :computer: [VIEW THE DEPLOYED PROJECT HERE](https://web-production-25986.up.railway.app)
 
 ![alt text](https://github.com/jeksilaen/HackChat/blob/main/docs-assets/home.png?raw=true)
 ![alt text](https://github.com/jeksilaen/HackChat/blob/main/docs-assets/main.png?raw=true)
