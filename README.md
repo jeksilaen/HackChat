@@ -19,7 +19,7 @@
 | **Template Engine** |         [EJS](https://ejs.co)         |
 |   **Web Sockets**   |     [Socket IO](https://socket.io)    |
 |     **Styling**     | [Bootstrap](https://getbootstrap.com) |
-|      **Deploy**     |    [Heroku](https://www.heroku.com)   |
+|      **Deploy**     |    [Railway](https://www.railway.app)   |
 
 ## Previews :computer: [VIEW THE DEPLOYED PROJECT HERE](https://web-production-25986.up.railway.app)
 
