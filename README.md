@@ -34,7 +34,7 @@ On the home page, simply __enter your username__. This name will be used and dis
 > ### __Pick a room__
 On the home page, you can pick and add new rooms with unique names. The program will then seperate this using Socket.IO
 
-> ### __Send Messages__
+> ### __Send Texts__
 What is a chat application if you cant send messages!
 
 ## Contribute :raised_hand:
